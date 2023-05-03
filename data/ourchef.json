@@ -1,57 +1,482 @@
 [
    {
-     "id": 1,
-     "name": "Nigella Lawson",
-     "experience": "10 years",
-     "recipe_count": 50,
-     "likes": 5000,
-     "picture": "https://www.workbc.ca/sites/default/files/styles/hero_image/public/NTI5NzE_Oe7MEV5cqdKGbn12-6321-NOC.jpg?itok=h37TRdCq",
-     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus condimentum, bibendum libero a, feugiat nunc. Praesent in dolor in purus consequat malesuada. Nullam eget dignissim lorem."
-     
+      "id": 1,
+      "name": "Nigella Lawson",
+      "experience": "10 years",
+      "recipe_count": 50,
+      "likes": 5000,
+      "picture": "https://www.workbc.ca/sites/default/files/styles/hero_image/public/NTI5NzE_Oe7MEV5cqdKGbn12-6321-NOC.jpg?itok=h37TRdCq",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus condimentum, bibendum libero a, feugiat nunc. Praesent in dolor in purus consequat malesuada. Nullam eget dignissim lorem.",
+      "recipes": [
+         {
+            "number": 1,
+            "recipe_name": "Spaghetti Carbonara",
+            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "ingredients": [
+               "spaghetti",
+               "pancetta",
+               "eggs",
+               "parmesan cheese",
+               "black pepper"
+            ],
+            "cookingMethod": [
+               "1. Cook the spaghetti in a large pot of boiling salted water until al dente.",
+               "2. While the spaghetti is cooking, fry the pancetta in a large skillet over medium-high heat until crisp.",
+               "3. In a bowl, beat together the eggs and Parmesan cheese.",
+               "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
+               "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
+               "7. Add some of the reserved cooking water to make a creamy sauce.",
+               "8. Season with black pepper and serve immediately."
+            ],
+            "rating": 4.5
+         },
+         {
+            "number": 2,
+            "recipe_name": "Beef Stroganoff",
+            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "ingredients": [
+               "beef",
+               "onion",
+               "mushrooms",
+               "sour cream",
+               "egg noodles"
+            ],
+            "cookingMethod": [
+               "1. Cook the spaghetti in a large pot of boiling salted water until al dente.",
+               "2. While the spaghetti is cooking, fry the pancetta in a large skillet over medium-high heat until crisp.",
+               "3. In a bowl, beat together the eggs and Parmesan cheese.",
+               "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
+               "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
+               "7. Add some of the reserved cooking water to make a creamy sauce.",
+               "8. Season with black pepper and serve immediately."
+            ],
+            "rating": 4.8
+         },
+         {
+            "number": 3,
+            "recipe_name": "Chicken Parmesan",
+            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "ingredients": [
+               "chicken breasts",
+               "breadcrumbs",
+               "parmesan cheese",
+               "mozzarella cheese",
+               "marinara sauce"
+            ],
+            "cookingMethod": [
+               "1. Cook the spaghetti in a large pot of boiling salted water until al dente.",
+               "2. While the spaghetti is cooking, fry the pancetta in a large skillet over medium-high heat until crisp.",
+               "3. In a bowl, beat together the eggs and Parmesan cheese.",
+               "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
+               "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
+               "7. Add some of the reserved cooking water to make a creamy sauce.",
+               "8. Season with black pepper and serve immediately."
+            ],
+            "rating": 4.2
+         }
+      ]
    },
    {
-     "id": 2,
-     "name": "Chef Giada De Laurentiis",
-     "experience": "5 years",
-     "recipe_count": 30,
-     "likes": 3000,
-     "picture": "https://www.hoodmwr.com/wp-content/uploads/2023/02/3.-Rachael-Ray.jpg",
-     "bio": "Sed imperdiet mi id augue congue, sit amet interdum mi bibendum. Praesent vel mauris nulla. Nullam molestie massa ut mauris faucibus, id congue velit euismod. Etiam ut turpis ac metus efficitur gravida non eget enim."
+      "id": 2,
+      "name": "Chef Giada De Laurentiis",
+      "experience": "5 years",
+      "recipe_count": 30,
+      "likes": 3000,
+      "picture": "https://www.hoodmwr.com/wp-content/uploads/2023/02/3.-Rachael-Ray.jpg",
+      "bio": "Sed imperdiet mi id augue congue, sit amet interdum mi bibendum. Praesent vel mauris nulla. Nullam molestie massa ut mauris faucibus, id congue velit euismod. Etiam ut turpis ac metus efficitur gravida non eget enim.",
+      "recipes": [
+         {
+            "number": 1,
+            "recipe_name": "Spaghetti Carbonara",
+            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "ingredients": [
+               "spaghetti",
+               "pancetta",
+               "eggs",
+               "parmesan cheese",
+               "black pepper"
+            ],
+            "cookingMethod": [
+               "1. Cook the spaghetti in a large pot of boiling salted water until al dente.",
+               "2. While the spaghetti is cooking, fry the pancetta in a large skillet over medium-high heat until crisp.",
+               "3. In a bowl, beat together the eggs and Parmesan cheese.",
+               "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
+               "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
+               "7. Add some of the reserved cooking water to make a creamy sauce.",
+               "8. Season with black pepper and serve immediately."
+            ],
+            "rating": 4.5
+         },
+         {
+            "number": 2,
+            "recipe_name": "Beef Stroganoff",
+            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "ingredients": [
+               "beef",
+               "onion",
+               "mushrooms",
+               "sour cream",
+               "egg noodles"
+            ],
+            "cookingMethod": [
+               "1. Cook the spaghetti in a large pot of boiling salted water until al dente.",
+               "2. While the spaghetti is cooking, fry the pancetta in a large skillet over medium-high heat until crisp.",
+               "3. In a bowl, beat together the eggs and Parmesan cheese.",
+               "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
+               "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
+               "7. Add some of the reserved cooking water to make a creamy sauce.",
+               "8. Season with black pepper and serve immediately."
+            ],
+            "rating": 4.8
+         },
+         {
+            "number": 3,
+            "recipe_name": "Chicken Parmesan",
+            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "ingredients": [
+               "chicken breasts",
+               "breadcrumbs",
+               "parmesan cheese",
+               "mozzarella cheese",
+               "marinara sauce"
+            ],
+            "cookingMethod": [
+               "1. Cook the spaghetti in a large pot of boiling salted water until al dente.",
+               "2. While the spaghetti is cooking, fry the pancetta in a large skillet over medium-high heat until crisp.",
+               "3. In a bowl, beat together the eggs and Parmesan cheese.",
+               "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
+               "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
+               "7. Add some of the reserved cooking water to make a creamy sauce.",
+               "8. Season with black pepper and serve immediately."
+            ],
+            "rating": 4.2
+         }
+      ]
    },
    {
-     "id": 3,
-     "name": "Chef Mark Johnson",
-     "experience": "15 years",
-     "recipe_count": 100,
-     "likes": 10000,
-     "picture": "https://img.freepik.com/free-photo/portrait-smiling-chef-uniform_329181-675.jpg",
-     "bio": "Phasellus sagittis, augue sed rutrum volutpat, augue orci sollicitudin lorem, eu aliquet tortor neque vel turpis. Sed vestibulum laoreet quam, in efficitur eros blandit a. Fusce et eros metus."
+      "id": 3,
+      "name": "Chef Mark Johnson",
+      "experience": "15 years",
+      "recipe_count": 100,
+      "likes": 10000,
+      "picture": "https://img.freepik.com/free-photo/portrait-smiling-chef-uniform_329181-675.jpg",
+      "bio": "Phasellus sagittis, augue sed rutrum volutpat, augue orci sollicitudin lorem, eu aliquet tortor neque vel turpis. Sed vestibulum laoreet quam, in efficitur eros blandit a. Fusce et eros metus.",
+      "recipes": [
+         {
+            "number": 1,
+            "recipe_name": "Spaghetti Carbonara",
+            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "ingredients": [
+               "spaghetti",
+               "pancetta",
+               "eggs",
+               "parmesan cheese",
+               "black pepper"
+            ],
+            "cookingMethod": [
+               "1. Cook the spaghetti in a large pot of boiling salted water until al dente.",
+               "2. While the spaghetti is cooking, fry the pancetta in a large skillet over medium-high heat until crisp.",
+               "3. In a bowl, beat together the eggs and Parmesan cheese.",
+               "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
+               "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
+               "7. Add some of the reserved cooking water to make a creamy sauce.",
+               "8. Season with black pepper and serve immediately."
+            ],
+            "rating": 4.5
+         },
+         {
+            "number": 2,
+            "recipe_name": "Beef Stroganoff",
+            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "ingredients": [
+               "beef",
+               "onion",
+               "mushrooms",
+               "sour cream",
+               "egg noodles"
+            ],
+            "cookingMethod": [
+               "1. Cook the spaghetti in a large pot of boiling salted water until al dente.",
+               "2. While the spaghetti is cooking, fry the pancetta in a large skillet over medium-high heat until crisp.",
+               "3. In a bowl, beat together the eggs and Parmesan cheese.",
+               "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
+               "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
+               "7. Add some of the reserved cooking water to make a creamy sauce.",
+               "8. Season with black pepper and serve immediately."
+            ],
+            "rating": 4.8
+         },
+         {
+            "number": 3,
+            "recipe_name": "Chicken Parmesan",
+            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "ingredients": [
+               "chicken breasts",
+               "breadcrumbs",
+               "parmesan cheese",
+               "mozzarella cheese",
+               "marinara sauce"
+            ],
+            "cookingMethod": [
+               "1. Cook the spaghetti in a large pot of boiling salted water until al dente.",
+               "2. While the spaghetti is cooking, fry the pancetta in a large skillet over medium-high heat until crisp.",
+               "3. In a bowl, beat together the eggs and Parmesan cheese.",
+               "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
+               "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
+               "7. Add some of the reserved cooking water to make a creamy sauce.",
+               "8. Season with black pepper and serve immediately."
+            ],
+            "rating": 4.2
+         }
+      ]
    },
    {
-     "id": 4,
-     "name": "Chef Sarah Lee",
-     "experience": "8 years",
-     "recipe_count": 40,
-     "likes": 4000,
-     "picture": "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=787&q=80",
-     "bio": "Vivamus a dolor vel diam dignissim lacinia eget id velit. Praesent congue, est non ultrices consequat, odio nunc consequat tellus, eu pulvinar lorem ex a dolor."
+      "id": 4,
+      "name": "Chef Sarah Lee",
+      "experience": "8 years",
+      "recipe_count": 40,
+      "likes": 4000,
+      "picture": "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=787&q=80",
+      "bio": "Vivamus a dolor vel diam dignissim lacinia eget id velit. Praesent congue, est non ultrices consequat, odio nunc consequat tellus, eu pulvinar lorem ex a dolor.",
+      "recipes": [
+         {
+            "number": 1,
+            "recipe_name": "Spaghetti Carbonara",
+            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "ingredients": [
+               "spaghetti",
+               "pancetta",
+               "eggs",
+               "parmesan cheese",
+               "black pepper"
+            ],
+            "cookingMethod": [
+               "1. Cook the spaghetti in a large pot of boiling salted water until al dente.",
+               "2. While the spaghetti is cooking, fry the pancetta in a large skillet over medium-high heat until crisp.",
+               "3. In a bowl, beat together the eggs and Parmesan cheese.",
+               "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
+               "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
+               "7. Add some of the reserved cooking water to make a creamy sauce.",
+               "8. Season with black pepper and serve immediately."
+            ],
+            "rating": 4.5
+         },
+         {
+            "number": 2,
+            "recipe_name": "Beef Stroganoff",
+            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "ingredients": [
+               "beef",
+               "onion",
+               "mushrooms",
+               "sour cream",
+               "egg noodles"
+            ],
+            "cookingMethod": [
+               "1. Cook the spaghetti in a large pot of boiling salted water until al dente.",
+               "2. While the spaghetti is cooking, fry the pancetta in a large skillet over medium-high heat until crisp.",
+               "3. In a bowl, beat together the eggs and Parmesan cheese.",
+               "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
+               "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
+               "7. Add some of the reserved cooking water to make a creamy sauce.",
+               "8. Season with black pepper and serve immediately."
+            ],
+            "rating": 4.8
+         },
+         {
+            "number": 3,
+            "recipe_name": "Chicken Parmesan",
+            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "ingredients": [
+               "chicken breasts",
+               "breadcrumbs",
+               "parmesan cheese",
+               "mozzarella cheese",
+               "marinara sauce"
+            ],
+            "cookingMethod": [
+               "1. Cook the spaghetti in a large pot of boiling salted water until al dente.",
+               "2. While the spaghetti is cooking, fry the pancetta in a large skillet over medium-high heat until crisp.",
+               "3. In a bowl, beat together the eggs and Parmesan cheese.",
+               "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
+               "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
+               "7. Add some of the reserved cooking water to make a creamy sauce.",
+               "8. Season with black pepper and serve immediately."
+            ],
+            "rating": 4.2
+         }
+      ]
    },
    {
-     "id": 5,
-     "name": "Chef Alex Brown",
-     "experience": "12 years",
-     "recipe_count": 75,
-     "likes": 7500,
-     "picture": "https://d2j6dbq0eux0bg.cloudfront.net/images/67036782/3169978968.jpg",
-     "bio": "Donec vel dolor vel lorem placerat egestas. Nulla facilisi. Aenean in mauris malesuada, aliquam leo at, ornare metus. Ut vitae sapien velit. Duis iaculis ut purus nec suscipit."
+      "id": 5,
+      "name": "Chef Alex Brown",
+      "experience": "12 years",
+      "recipe_count": 75,
+      "likes": 7500,
+      "picture": "https://d2j6dbq0eux0bg.cloudfront.net/images/67036782/3169978968.jpg",
+      "bio": "Donec vel dolor vel lorem placerat egestas. Nulla facilisi. Aenean in mauris malesuada, aliquam leo at, ornare metus. Ut vitae sapien velit. Duis iaculis ut purus nec suscipit.",
+      "recipes": [
+         {
+            "number": 1,
+            "recipe_name": "Spaghetti Carbonara",
+            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "ingredients": [
+               "spaghetti",
+               "pancetta",
+               "eggs",
+               "parmesan cheese",
+               "black pepper"
+            ],
+            "cookingMethod": [
+               "1. Cook the spaghetti in a large pot of boiling salted water until al dente.",
+               "2. While the spaghetti is cooking, fry the pancetta in a large skillet over medium-high heat until crisp.",
+               "3. In a bowl, beat together the eggs and Parmesan cheese.",
+               "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
+               "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
+               "7. Add some of the reserved cooking water to make a creamy sauce.",
+               "8. Season with black pepper and serve immediately."
+            ],
+            "rating": 4.5
+         },
+         {
+            "number": 2,
+            "recipe_name": "Beef Stroganoff",
+            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "ingredients": [
+               "beef",
+               "onion",
+               "mushrooms",
+               "sour cream",
+               "egg noodles"
+            ],
+            "cookingMethod": [
+               "1. Cook the spaghetti in a large pot of boiling salted water until al dente.",
+               "2. While the spaghetti is cooking, fry the pancetta in a large skillet over medium-high heat until crisp.",
+               "3. In a bowl, beat together the eggs and Parmesan cheese.",
+               "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
+               "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
+               "7. Add some of the reserved cooking water to make a creamy sauce.",
+               "8. Season with black pepper and serve immediately."
+            ],
+            "rating": 4.8
+         },
+         {
+            "number": 3,
+            "recipe_name": "Chicken Parmesan",
+            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "ingredients": [
+               "chicken breasts",
+               "breadcrumbs",
+               "parmesan cheese",
+               "mozzarella cheese",
+               "marinara sauce"
+            ],
+            "cookingMethod": [
+               "1. Cook the spaghetti in a large pot of boiling salted water until al dente.",
+               "2. While the spaghetti is cooking, fry the pancetta in a large skillet over medium-high heat until crisp.",
+               "3. In a bowl, beat together the eggs and Parmesan cheese.",
+               "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
+               "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
+               "7. Add some of the reserved cooking water to make a creamy sauce.",
+               "8. Season with black pepper and serve immediately."
+            ],
+            "rating": 4.2
+         }
+      ]
    },
    {
-     "id": 6,
-     "name": "Chef Emily Davis",
-     "experience": "7 years",
-     "recipe_count": 25,
-     "likes": 2500,
-     "picture": "https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5342.jpg",
-     "bio": "Integer id dolor ac nunc placerat bibendum. Fusce laoreet, nunc ut pellentesque facilisis, magna urna ullamcorper nibh, in fringilla velit mauris et enim. Nullam faucibus sit amet ipsum vel ultrices."
+      "id": 6,
+      "name": "Chef Emily Davis",
+      "experience": "7 years",
+      "recipe_count": 25,
+      "likes": 2500,
+      "picture": "https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5342.jpg",
+      "bio": "Integer id dolor ac nunc placerat bibendum. Fusce laoreet, nunc ut pellentesque facilisis, magna urna ullamcorper nibh, in fringilla velit mauris et enim. Nullam faucibus sit amet ipsum vel ultrices.",
+      "recipes": [
+         {
+            "number": 1,
+            "recipe_name": "Spaghetti Carbonara",
+            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "ingredients": [
+               "spaghetti",
+               "pancetta",
+               "eggs",
+               "parmesan cheese",
+               "black pepper"
+            ],
+            "cookingMethod": [
+               "1. Cook the spaghetti in a large pot of boiling salted water until al dente.",
+               "2. While the spaghetti is cooking, fry the pancetta in a large skillet over medium-high heat until crisp.",
+               "3. In a bowl, beat together the eggs and Parmesan cheese.",
+               "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
+               "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
+               "7. Add some of the reserved cooking water to make a creamy sauce.",
+               "8. Season with black pepper and serve immediately."
+            ],
+            "rating": 4.5
+         },
+         {
+            "number": 2,
+            "recipe_name": "Beef Stroganoff",
+            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "ingredients": [
+               "beef",
+               "onion",
+               "mushrooms",
+               "sour cream",
+               "egg noodles"
+            ],
+            "cookingMethod": [
+               "1. Cook the spaghetti in a large pot of boiling salted water until al dente.",
+               "2. While the spaghetti is cooking, fry the pancetta in a large skillet over medium-high heat until crisp.",
+               "3. In a bowl, beat together the eggs and Parmesan cheese.",
+               "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
+               "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
+               "7. Add some of the reserved cooking water to make a creamy sauce.",
+               "8. Season with black pepper and serve immediately."
+            ],
+            "rating": 4.8
+         },
+         {
+            "number": 3,
+            "recipe_name": "Chicken Parmesan",
+            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "ingredients": [
+               "chicken breasts",
+               "breadcrumbs",
+               "parmesan cheese",
+               "mozzarella cheese",
+               "marinara sauce"
+            ],
+            "cookingMethod": [
+               "1. Cook the spaghetti in a large pot of boiling salted water until al dente.",
+               "2. While the spaghetti is cooking, fry the pancetta in a large skillet over medium-high heat until crisp.",
+               "3. In a bowl, beat together the eggs and Parmesan cheese.",
+               "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
+               "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
+               "7. Add some of the reserved cooking water to make a creamy sauce.",
+               "8. Season with black pepper and serve immediately."
+            ],
+            "rating": 4.2
+         }
+      ]
    }
- ]
+]
