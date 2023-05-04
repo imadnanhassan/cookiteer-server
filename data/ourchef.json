@@ -34,7 +34,7 @@
          {
             "number": 2,
             "recipe_name": "Beef Stroganoff",
-            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "banner": "https://images.unsplash.com/photo-1676300185579-ed2b14891d82?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
             "ingredients": [
                "beef",
                "onion",
@@ -48,16 +48,14 @@
                "3. In a bowl, beat together the eggs and Parmesan cheese.",
                "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
                "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
-               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
-               "7. Add some of the reserved cooking water to make a creamy sauce.",
-               "8. Season with black pepper and serve immediately."
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs."
             ],
             "rating": 4.8
          },
          {
             "number": 3,
             "recipe_name": "Chicken Parmesan",
-            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "banner": "https://images.unsplash.com/photo-1544378730-8b5104b18790?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=849&q=80",
             "ingredients": [
                "chicken breasts",
                "breadcrumbs",
@@ -71,9 +69,8 @@
                "3. In a bowl, beat together the eggs and Parmesan cheese.",
                "4. Drain the spaghetti, reserving 1/2 cup of the cooking water.",
                "5. Add the spaghetti to the skillet with the pancetta and toss to coat.",
-               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs.",
-               "7. Add some of the reserved cooking water to make a creamy sauce.",
-               "8. Season with black pepper and serve immediately."
+               "6. Remove the skillet from the heat and add the egg mixture, tossing quickly to avoid scrambling the eggs."
+               
             ],
             "rating": 4.2
          }
@@ -114,7 +111,7 @@
          {
             "number": 2,
             "recipe_name": "Beef Stroganoff",
-            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "banner": "https://images.unsplash.com/photo-1676300185579-ed2b14891d82?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
             "ingredients": [
                "beef",
                "onion",
@@ -194,7 +191,7 @@
          {
             "number": 2,
             "recipe_name": "Beef Stroganoff",
-            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "banner": "https://images.unsplash.com/photo-1676300185579-ed2b14891d82?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
             "ingredients": [
                "beef",
                "onion",
@@ -274,7 +271,7 @@
          {
             "number": 2,
             "recipe_name": "Beef Stroganoff",
-            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "banner": "https://images.unsplash.com/photo-1676300185579-ed2b14891d82?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 ",
             "ingredients": [
                "beef",
                "onion",
@@ -354,7 +351,7 @@
          {
             "number": 2,
             "recipe_name": "Beef Stroganoff",
-            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "banner": "https://images.unsplash.com/photo-1676300185579-ed2b14891d82?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 ",
             "ingredients": [
                "beef",
                "onion",
@@ -434,7 +431,7 @@
          {
             "number": 2,
             "recipe_name": "Beef Stroganoff",
-            "banner": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=443&q=80 ",
+            "banner": "https://images.unsplash.com/photo-1676300185579-ed2b14891d82?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 ",
             "ingredients": [
                "beef",
                "onion",
